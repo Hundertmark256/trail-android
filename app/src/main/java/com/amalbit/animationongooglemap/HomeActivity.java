@@ -2,7 +2,7 @@ package com.amalbit.animationongooglemap;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import com.amalbit.animationongooglemap.polylineBased.MapsActivity;
 import com.amalbit.animationongooglemap.projectionBased.CabsActivity;
@@ -21,7 +21,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
     findViewById(R.id.btnViewOverly).setOnClickListener(this);
 
     //Debugging
-    findViewById(R.id.btn_cabs).performClick();
+//    findViewById(R.id.btn_cabs).performClick();
 //    findViewById(R.id.btn_projection).performClick();
 //    findViewById(R.id.btnViewOverly).performClick();
   }
